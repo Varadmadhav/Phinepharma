@@ -10,6 +10,7 @@ import { GlobalPresence } from "./components/GlobalPresence";
 import { Insights } from "./components/Insights";
 import { Contact } from "./components/Contact";
 import { Navigation } from "./components/Navigation";
+import { ClosingVideo } from "./components/ClosingVideo";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
       <GlobalPresence />
       <Insights />
       <Contact />
+      <ClosingVideo />
     </div>
   );
 }
