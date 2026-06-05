@@ -3,54 +3,57 @@
 :root {
   --font-size: 16px;
   --background: #ffffff;
-  --foreground: #07111F;
-  --card: #ffffff;
-  --card-foreground: #07111F;
+  --foreground: #0f172a;
+  --card: #f8fafc;
+  --card-foreground: #0f172a;
   --popover: #ffffff;
-  --popover-foreground: #07111F;
-  --primary: #07111F;
+  --popover-foreground: #0f172a;
+  --primary: #0f172a;
   --primary-foreground: #ffffff;
-  --secondary: #0891B2;
+  --secondary: #0d9488;
   --secondary-foreground: #ffffff;
-  --muted: #F5F5F7;
-  --muted-foreground: #64748B;
-  --accent: #F59E0B;
-  --accent-foreground: #07111F;
-  --destructive: #DC2626;
+  --muted: #f1f5f9;
+  --muted-foreground: #475569;
+  --accent: #ffd166;
+  --accent-foreground: #0f172a;
+  --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --border: rgba(7, 17, 31, 0.1);
+  --border: rgba(0, 0, 0, 0.08);
   --input: transparent;
-  --input-background: #F8FAFC;
-  --switch-background: #CBD5E1;
+  --input-background: rgba(0, 0, 0, 0.02);
+  --switch-background: #e2e8f0;
   --font-weight-medium: 500;
   --font-weight-normal: 400;
-  --ring: #0891B2;
-  --chart-1: #0891B2;
-  --chart-2: #10B981;
-  --chart-3: #F59E0B;
-  --chart-4: #3B82F6;
-  --chart-5: #8B5CF6;
-  --radius: 0.5rem;
-  --sidebar: #F8FAFC;
-  --sidebar-foreground: #07111F;
-  --sidebar-primary: #07111F;
+  --ring: #0d9488;
+  --chart-1: #0d9488;
+  --chart-2: #16a34a;
+  --chart-3: #d97706;
+  --chart-4: #06b6d4;
+  --chart-5: #4f46e5;
+  --radius: 0.75rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #0f172a;
+  --sidebar-primary: #0d9488;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #F5F5F7;
-  --sidebar-accent-foreground: #07111F;
-  --sidebar-border: rgba(7, 17, 31, 0.1);
-  --sidebar-ring: #0891B2;
+  --sidebar-accent: #f8fafc;
+  --sidebar-accent-foreground: #0f172a;
+  --sidebar-border: rgba(0, 0, 0, 0.08);
+  --sidebar-ring: #0d9488;
 
   /* PHINE PHARMA Custom Variables */
-  --navy: #07111F;
-  --teal: #0891B2;
-  --teal-light: #06B6D4;
-  --green: #10B981;
-  --gold: #F59E0B;
-  --gray-50: #F8FAFC;
-  --gray-100: #F1F5F9;
-  --gray-200: #E2E8F0;
+  --navy: #0b1329;
+  --teal: #0d9488;
+  --teal-light: #06b6d4;
+  --green: #16a34a;
+  --gold: #d97706;
+  --indigo-accent: #4f46e5;
+  --gray-50: #f8fafc;
+  --gray-100: #f1f5f9;
+  --gray-200: #e2e8f0;
   --gray-600: #475569;
-  --gray-800: #1E293B;
+  --gray-800: #0f172a;
+  --glass-bg: rgba(255, 255, 255, 0.55);
+  --glass-border: rgba(0, 0, 0, 0.05);
 }
 
 .dark {
@@ -129,6 +132,12 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-navy: var(--navy);
+  --color-teal: var(--teal);
+  --color-teal-light: var(--teal-light);
+  --color-green: var(--green);
+  --color-gold: var(--gold);
+  --color-indigo-accent: var(--indigo-accent);
 }
 
 @layer base {
